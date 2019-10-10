@@ -131,10 +131,10 @@ def admissions(GPA,race,gender,instate):
         chance = 1
     print("({}%)".format(int(chance*100)))
     
-def dicksucking(doses, length):
+def dicksucking(succ_potion_doses, length):
     #you can only deepthroat a dick if the length of the dick is less than 5
-    #or you took at least 3 doses of magic mouthwash
-    if doses >= 3 or length < 5:
+    #or you took at least 1 dose of succ potion for each additional 2 inches
+    if length-(1/2)*succ_potion_doses<5:
         deepthroat = True
     else:
         deepthroat = False
