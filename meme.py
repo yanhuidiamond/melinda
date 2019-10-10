@@ -181,7 +181,7 @@ def credithours():
     
  def shouldWeGoToRecitation():
     print("no")
-    
+    print("william is much more than 10 steps ahead now")
 
 
         
