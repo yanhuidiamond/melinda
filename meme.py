@@ -179,7 +179,8 @@ def credithours():
         year = "dead"
     print("You have {} hours. This makes you {}.".format(hours, year))
     
-        
+ def shouldWeGoToRecitation():
+    print("no")
     
 
 
