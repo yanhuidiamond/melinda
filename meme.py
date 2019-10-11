@@ -179,9 +179,13 @@ def credithours():
         year = "dead"
     print("You have {} hours. This makes you {}.".format(hours, year))
     
- def shouldWeGoToRecitation():
+def shouldWeGoToRecitation():
     print("no")
     print("william is much more than 10 steps ahead now")
-
+   
+def dice():
+    import random
+    print(random.randrange(1,7)
+    print(random.randrange(1,7)
 
         
